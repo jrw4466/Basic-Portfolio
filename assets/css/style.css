@@ -10,6 +10,7 @@ ul {
 
 li {
 	float: right;
+	border-right: 1px solid #bbb;
 }
 
 li a {
@@ -23,4 +24,10 @@ li a {
 
  li a:hover {
     background-color: #111;
+}
+
+
+#ProfilePic {
+	width: 200px;
+	height: 200px;
 }
