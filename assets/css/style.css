@@ -168,3 +168,8 @@ input[type=submit]:hover {
 #message {
 	height: 200px;
 }
+
+.container10 {
+    width: 960px;
+    margin: 0 auto;
+}
