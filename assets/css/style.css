@@ -3,6 +3,7 @@
 
 body {
 	font-family: "Arial"; "Helvetica Neue", Helvetica, sans-sereif;
+    background-image: url("../images/sakura.png");
 }
 
 h1 {
@@ -27,7 +28,13 @@ footer {
 	font-size: 10px
 }
 
-
+#Connect {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border: 1px solid: black;
+    margin: 20px;
+}
 
 
 /* Removes the <ul> bullets and browser default settings */
@@ -57,11 +64,23 @@ li a {
     background-color: #111;
 }
 
+/* Index.html CSS Styles */
+#About {
+    width: 600px;
+    background: white;
+    padding: 20px;
+    border: 1px solid: black;
+    margin: 20px;
+}
+
 
 #ProfilePic {
 	width: 200px;
 	height: 200px;
 }
+
+/* Portfolio HTML CSS Styles*/
+
 
 .Pic {
   /* relative positioning */
@@ -107,3 +126,4 @@ input[type=submit]:hover {
 #message {
 	height: 200px;
 }
+
