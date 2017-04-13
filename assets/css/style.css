@@ -1,6 +1,10 @@
 
 /* All Pages Styling */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
 	font-family: "Arial"; "Helvetica Neue", Helvetica, sans-sereif;
     background-image: url("../images/sakura.png");
@@ -10,9 +14,12 @@ h1 {
 	background-color: #4aaaa5;
 	font-family: "Georgia", Times, "Times New Roman"; serif;
     color: white;
-    width: 200px;
+    width: 220px;
     padding: 15px;
     text-align: center;
+    position: relative;
+    top: 88px;
+    right: -99px;
 }
 
 h2 {
@@ -21,7 +28,8 @@ h2 {
 }
 
 p {
-	color: #777777;
+	float: left;
+    color: #777777;
 	font-family: "Georgia", Times, "Times New Roman"; serif;
 }
 
@@ -39,16 +47,19 @@ footer {
 
 #Connect {
     float: right;
-    width: 300px;
+    width: 450px;
     background: white;
     padding: 20px;
     border: 1px solid: black;
-    margin: 20px;
-    margin: 40px 100px 40px 20px
+    margin: 40px 200px 40px 20px;
 }
 
 .links {
     margin-top: 20px;
+}
+
+#Bar {
+    margin-top: 0;
 }
 
 
@@ -56,7 +67,7 @@ footer {
 ul {
     list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding: 10px;
 	overflow: hidden;
 	background-color: #333;
 }
@@ -86,7 +97,7 @@ li a {
     background: white;
     padding: 20px;
     border: 1px solid: black;
-    margin: 20px;
+    margin: 40px 20px 40px 100px;
 }
 
 
@@ -101,27 +112,59 @@ li a {
     float: left;
     width: 600px;
     background: white;
+    border-style: none;
+    margin: 40px 20px 40px 100px;
     padding: 20px;
-    border: 1px solid: black;
-    margin: 20px;
 }
 
 .Pic {
   /* relative positioning */
   position: relative;
-  width: 150px;
+  width: 200px;
   height: 150px;
   background: #2db34a;
   border: 2px solid black;
+  margin: 20px;
 }
 
 .lab {
     background-color: #4aaaa5;
     font-family: "Georgia", Times, "Times New Roman"; serif;
     color: white;
-    width: 150px;
+    width: 200px;
     padding: 15px;
     text-align: center;
+   
+}
+
+.lab1 {
+    position: relative;
+    top: -472px;
+    left: 20px;  
+}
+
+.lab2 {
+    position: relative;
+    top: -519px;
+    left: 265px;  
+}
+
+.lab3 {
+    position: relative;
+    top: -374px;
+    left: 20px;  
+}
+
+.lab4 {
+    position: relative;
+    top: -421px;
+    left: 265px;  
+}
+
+.lab5 {
+    position: relative;
+    top: -275px;
+    left: 20px;  
 }
 
 /* Contact Form HTML CSS Styles*/
@@ -167,9 +210,4 @@ input[type=submit]:hover {
 
 #message {
 	height: 200px;
-}
-
-.container10 {
-    width: 960px;
-    margin: 0 auto;
 }
