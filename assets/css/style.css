@@ -59,7 +59,9 @@ footer {
 }
 
 #Bar {
+    background-color: none;
     margin-top: 0;
+    overflow: hidden;
 }
 
 
@@ -103,7 +105,7 @@ li a {
 
 
 #ProfilePic {
-	width: 200px;
+	width: 170px;
 	height: 200px;
 }
 
@@ -116,6 +118,7 @@ li a {
     border-style: none;
     margin: 40px 20px 40px 100px;
     padding: 20px;
+    height: 700px;
 }
 
 .Pic {
